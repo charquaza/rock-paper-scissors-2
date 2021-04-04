@@ -1,0 +1,35 @@
+main, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.choices {
+    flex-direction: row;
+}
+
+.scores-list {
+    list-style: none;
+    padding: 0;
+    width: 280px;
+}
+.scores-list li:first-child {
+    display: inline;
+    float: left;
+}
+.scores-list li:last-child {
+    display: inline;
+    float: right;
+}
+
+#winner {
+    border: 1px solid gray;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+button {
+    margin: 0 1rem;
+}
